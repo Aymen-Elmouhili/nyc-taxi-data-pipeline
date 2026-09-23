@@ -1,0 +1,34 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data
+data/raw/*
+data/processed/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python package metadata
+*.egg-info/

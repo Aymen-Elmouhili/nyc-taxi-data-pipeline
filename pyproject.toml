@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyc-taxi-data-pipeline"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
